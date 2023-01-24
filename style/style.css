@@ -1,0 +1,110 @@
+.p-cb {
+    background-color: #B68C5A;
+}
+
+.ps-bg{
+    background-color:  #F3F3F3;
+}
+.custom-gradient {
+    background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
+    border: 1px solid #E7E7E7;
+}
+.custom-font-style-1 {
+    font-family: 'EB Garamond', serif;
+}
+.custom-font-style-2 {
+    font-family: 'Poppins', sans-serif;
+}
+.custom-font-color {
+    color: #CFCFCF;
+}
+.custom-font-color-1 {
+    color: #707070;
+}
+.custom-font-color-2 {
+    color: #414040;
+}
+
+
+.hhh{
+    height: 13%;
+}
+
+
+.button-main {
+    width: 220px;
+    height: 64px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    background: none;
+    border: 1px solid #B68C5A;
+    transition: 0.8s;
+    position: relative;
+    color: #B68C5A;
+    overflow: hidden;
+}
+.button-main:hover {
+    color: white;
+}
+.button-main::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #B68C5A;
+    z-index: -1;
+    transition: 0.8s;
+    top: 0;
+    border-radius: 0 0 50% 50%;
+}
+.button-main:hover::before {
+    height: 180%;
+}
+
+
+.c-bg{
+   
+    background-image: url('/images/Rectangle\ 6.png');
+}
+
+.h-bg{
+    
+    height: 100vh; background-repeat: no-repeat;
+    position: relative;
+    background-image: url('/images/Rectangle\ 4.png');
+}
+
+
+.masthead {
+    background-size: cover;
+    min-height: 60vh;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
+
+
+
+.color-overlay {
+    position: absolute;
+    background-color: rgba(0,0,0,0.2);
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .masthead {
+        min-height: 25vh;
+    }
+    .ss{
+   
+        font-size: 15px;
+        
+    }
+    .pss{
+    
+        font-size: 8px; 
+    }
+   
+}
